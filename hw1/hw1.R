@@ -27,7 +27,7 @@ text(2, -3, expression(h[t](x)), col = "black", cex = 1.5)
 # the misclassified sample point
 points(x=-4, y=3, col="red", pch=16, cex=1.5)
 arrows(0, 0, -4, 3, col = "red", lwd=1.5, length=0.2)
-text(-5, 2, expression(paste(y[n], "=+1,", x[n], "=(-4,3)", sep="")), col = "red", cex = 1.3)  
+text(-4.5, 1, expression(paste(y[n(t)], "=+1,", x[n(t)], "=(-4,3)", sep="")), col = "red", cex = 1.3)  
 
 # the updated model
 arrows(0, 0, -1, 6, col = "blue", lwd=1.5, length=0.2)
@@ -99,7 +99,7 @@ text(-7, 0.5, expression(paste(y[n[1](t)], "=+1,", x[n[1](t)], "=(-4,3)", sep=""
 # the misclassified sample point 2
 points(x=5, y=2, col="purple", pch=16, cex=1.5)
 arrows(0, 0, 5, 2, col = "purple", lwd=1.5, length=0.2)
-text(8, 0.5, expression(paste(y[n[2](t)], "=+1,", x[n[2](t)], "=(5,2)", sep="")), col = "purple", cex = 1.3)  
+text(8, 0.5, expression(paste(y[n[2](t)], "=-1,", x[n[2](t)], "=(5,2)", sep="")), col = "purple", cex = 1.3)  
 
 # the updated model
 arrows(0, 0, -6, 4, col = "blue", lwd=1.5, length=0.2)
