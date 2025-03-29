@@ -110,7 +110,6 @@ text(2, 7, expression(h[t+1](x)), col = "blue", cex = 1.5)
 dev.off()
 
 
-
 # 4.3: no samples are corrected 
 pdf("4.3.pdf")
 

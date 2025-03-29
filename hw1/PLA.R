@@ -1,4 +1,0 @@
-# Perceptron Learning Algorithm
-
-
-
